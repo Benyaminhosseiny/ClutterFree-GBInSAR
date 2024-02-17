@@ -1,9 +1,15 @@
 # ClutterFree-GBInSAR
 
 This repository demonstrates how to minimize the impact of static clutter in time-series observations of Radar/SAR signals. To achieve this, we identify the bias in the phasor representation of complex-valued time-series signals. This approach is simple yet highly effective, particularly for Radar and low-resolution SAR observations.
+## Usage
+First, run "ClutterR_Part1_rawdata.m" to generate the simulated data.
+Then, run "ClutterR_Part2_processing.m" to process the data and reduce the effect of clutters!
 
+## Results
+
+Here is the results you can obtain by running the codes.
 <p align="center">
- <img src="results/TargetsGeometry.jpg" width=80%>
+ <img src="results/TargetGeometry.jpg" width=80%>
 </p>
 
 <p align="center">
@@ -13,6 +19,8 @@ This repository demonstrates how to minimize the impact of static clutter in tim
 <p align="center">
  <img src="results/FocusedImage.jpg" width=80%>
 </p>
+
+See how this approach can highlight the displacement in the presence of heavy clutter! ![Static Badge](https://img.shields.io/badge/COOL%F0%9F%98%8E-blue)
 
 <p align="center">
  <img src="results/ClutterReduction.jpg" width=80%>
