@@ -9,15 +9,15 @@ Then, run "ClutterR_Part2_processing.m" to process the data and reduce the effec
 
 Here is the results you can obtain by running the codes.
 <p align="center">
- <img src="results/TargetGeometry.jpg" width=80%>
+ <img src="results/TargetGeometry.jpg" width=50%>
 </p>
 
 <p align="center">
- <img src="results/AntennaGeometry.jpg" width=80%>
+ <img src="results/AntennaGeometry.jpg" width=50%>
 </p>
 
 <p align="center">
- <img src="results/FocusedImage.jpg" width=80%>
+ <img src="results/FocusedImage.jpg" width=50%>
 </p>
 
 See how this approach can highlight the displacement in the presence of heavy clutter! ![Static Badge](https://img.shields.io/badge/COOL%F0%9F%98%8E-blue)
