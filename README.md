@@ -2,6 +2,7 @@
 Structural displacement monitoring using ground-based synthetic aperture radar (Implementation of continuous displacement monitoring and clutter reduction)
 
 This repository demonstrates how to minimize the impact of static clutter in time-series observations of Radar/SAR signals. To achieve this, we identify the bias in the phasor representation of complex-valued time-series signals. This approach is simple yet highly effective, particularly for Radar and low-resolution SAR observations.
+
 ## Usage
 First, run "ClutterR_Part1_rawdata.m" to generate the simulated data.
 Then, run "ClutterR_Part2_processing.m" to process the data and reduce the effect of clutters!
