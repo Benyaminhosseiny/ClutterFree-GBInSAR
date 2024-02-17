@@ -1,4 +1,5 @@
 # ClutterFree-GBInSAR
+Structural displacement monitoring using ground-based synthetic aperture radar (Implementation of continuous displacement monitoring and clutter reduction)
 
 This repository demonstrates how to minimize the impact of static clutter in time-series observations of Radar/SAR signals. To achieve this, we identify the bias in the phasor representation of complex-valued time-series signals. This approach is simple yet highly effective, particularly for Radar and low-resolution SAR observations.
 ## Usage
