@@ -28,8 +28,24 @@ See how this approach can highlight the displacement in the presence of heavy cl
  <img src="results/ClutterReduction.jpg" width=80%>
 </p>
 
+We have further developed this method to extract fast displacements of targets from a single pass of SAR signal. We refer to this approach as continuous monitoring, where we analyze the observed SAR phase history at each range-bin to derive the displacement. This is done by eliminating the effects of range-skew, static clutters, and applying frequency-domain smoothing filtering.
+The impact of each step on the phasor representation of signals is shown below:
+
+<p align="center">
+ <img src="results/Continuous monitoring-Phasor.jpg" width=80%>
+</p>
+
+And finally, this the displacement that you can expect to obtain after processing these steps:
+
+<p align="center">
+ <img src="results/Continuous monitoring-Steps.jpg" width=80%>
+</p>
+
+Note that since this approach only utilizes phase information, it is more sensitive to noise and the stability of scatterers. This motivated us to further improve our algorithm by developing it based on Spectral Estimation and Beamforming techniques. 
+For more details, please check out my other repository: [Spectral-GBSAR] (https://github.com/Benyaminhosseiny/Spectral-GBSAR)
+
 ## Paper
-Link to the paper: 
+You can find more results and discussions in our paper: 
 
 [Elsevier](https://www.sciencedirect.com/science/article/pii/S1569843222003326) 
 
