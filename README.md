@@ -42,7 +42,7 @@ And finally, this the displacement that you can expect to obtain after processin
 </p>
 
 Note that since this approach only utilizes phase information, it is more sensitive to noise and the stability of scatterers. This motivated us to further improve our algorithm by developing it based on Spectral Estimation and Beamforming techniques. 
-For more details, please check out my other repository: [Spectral-GBSAR] (https://github.com/Benyaminhosseiny/Spectral-GBSAR)
+For more details, please check out my other repository: [Spectral-GBSAR](https://github.com/Benyaminhosseiny/Spectral-GBSAR)
 
 ## Paper
 You can find more results and discussions in our paper: 
